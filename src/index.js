@@ -6,7 +6,7 @@ import App from './App'; // Ensure you import your App component
 const cognitoAuthConfig = {
   authority: "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_qpSD45zzZ",
   client_id: "hfjkv26lfqqnjsi6lc7kj51ih",
-  redirect_uri: "http://localhost:3000",
+  redirect_uri: "https://main.d23t5ppxwe41p0.amplifyapp.com/",
   response_type: "code",
   scope: "phone openid email",
 };
