@@ -2,6 +2,11 @@
 
 A comprehensive task management system built with AWS serverless services and React. The system enables field teams to manage tasks efficiently with features like task assignment, status tracking, and automated notifications.
 
+<video width="640" height="360" controls>
+  <source src="./src/assets/vid.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ## System Architecture
 
 ### Backend Services (AWS)
@@ -54,7 +59,7 @@ A comprehensive task management system built with AWS serverless services and Re
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/hamdani2020/Serverless-Task-Management-System
 cd task-management-system
 ```
 
