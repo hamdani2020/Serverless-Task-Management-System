@@ -2,10 +2,17 @@
 
 A comprehensive task management system built with AWS serverless services and React. The system enables field teams to manage tasks efficiently with features like task assignment, status tracking, and automated notifications.
 
-<video width="640" height="360" controls>
-  <source src="./src/assets/vid.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+## Login page
+
+![shot](./src/assets/login.png)
+
+## Admin page
+
+![shot](./src/assets/admin.png)
+
+## Member page
+
+![shot](./src/assets/member.png)
 
 ## System Architecture
 
