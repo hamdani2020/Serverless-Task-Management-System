@@ -10,15 +10,16 @@ RUN npm install
 
 # Copy source files and Build
 COPY . ./
-RUN npm run build
+#RUN npm run build
 
 # Stage 2: Serve with Nginx
-FROM nginx:alpine
+#FROM nginx:alpine
 
 # Copy build from stage 1
-COPY --from=build /app/build/ /usr/share/nginx/html
+#COPY --from=build /app/build/ /usr/share/nginx/html
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 3000
 
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "start"]

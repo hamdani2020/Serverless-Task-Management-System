@@ -7,7 +7,8 @@ const cognitoAuthConfig = {
   authority: "https://cognito-idp.eu-west-1.amazonaws.com/eu-west-1_qpSD45zzZ",
   client_id: "hfjkv26lfqqnjsi6lc7kj51ih",
   /* redirect_uri: "https://main.d23t5ppxwe41p0.amplifyapp.com/", */
-  redirect_uri: "https://63.34.22.48/",
+  /* redirect_uri: "https://63.34.22.48/", */
+  redirect_uri: "http://localhost:3000/",
   response_type: "code",
   scope: "phone openid email",
 };
